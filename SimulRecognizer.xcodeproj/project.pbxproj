@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79109531CDB343800BF05EA /* rugby.png in Resources */ = {isa = PBXBuildFile; fileRef = E79109511CDB343800BF05EA /* rugby.png */; };
+		E79109541CDB343800BF05EA /* rugbyOriginal.png in Resources */ = {isa = PBXBuildFile; fileRef = E79109521CDB343800BF05EA /* rugbyOriginal.png */; };
+		E7D9121D1CDAE4D5007DA3C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D9121C1CDAE4D5007DA3C3 /* main.m */; };
+		E7D912201CDAE4D5007DA3C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D9121F1CDAE4D5007DA3C3 /* AppDelegate.m */; };
+		E7D912231CDAE4D5007DA3C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D912221CDAE4D5007DA3C3 /* ViewController.m */; };
+		E7D912261CDAE4D5007DA3C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D912241CDAE4D5007DA3C3 /* Main.storyboard */; };
+		E7D912281CDAE4D5007DA3C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D912271CDAE4D5007DA3C3 /* Assets.xcassets */; };
+		E7D9122B1CDAE4D5007DA3C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D912291CDAE4D5007DA3C3 /* LaunchScreen.storyboard */; };
+		E7D912361CDAE4D5007DA3C3 /* SimulRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D912351CDAE4D5007DA3C3 /* SimulRecognizerTests.m */; };
+		E7D912411CDAE4D5007DA3C3 /* SimulRecognizerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D912401CDAE4D5007DA3C3 /* SimulRecognizerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7D912321CDAE4D5007DA3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D912101CDAE4D5007DA3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7D912171CDAE4D5007DA3C3;
+			remoteInfo = SimulRecognizer;
+		};
+		E7D9123D1CDAE4D5007DA3C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D912101CDAE4D5007DA3C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7D912171CDAE4D5007DA3C3;
+			remoteInfo = SimulRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E79109511CDB343800BF05EA /* rugby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugby.png; sourceTree = "<group>"; };
+		E79109521CDB343800BF05EA /* rugbyOriginal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugbyOriginal.png; sourceTree = "<group>"; };
+		E7D912181CDAE4D5007DA3C3 /* SimulRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D9121C1CDAE4D5007DA3C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7D9121E1CDAE4D5007DA3C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7D9121F1CDAE4D5007DA3C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7D912211CDAE4D5007DA3C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7D912221CDAE4D5007DA3C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7D912251CDAE4D5007DA3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7D912271CDAE4D5007DA3C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7D9122A1CDAE4D5007DA3C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7D9122C1CDAE4D5007DA3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D912311CDAE4D5007DA3C3 /* SimulRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D912351CDAE4D5007DA3C3 /* SimulRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulRecognizerTests.m; sourceTree = "<group>"; };
+		E7D912371CDAE4D5007DA3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D9123C1CDAE4D5007DA3C3 /* SimulRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D912401CDAE4D5007DA3C3 /* SimulRecognizerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulRecognizerUITests.m; sourceTree = "<group>"; };
+		E7D912421CDAE4D5007DA3C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7D912151CDAE4D5007DA3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D9122E1CDAE4D5007DA3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D912391CDAE4D5007DA3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7D9120F1CDAE4D5007DA3C3 = {
+			isa = PBXGroup;
+			children = (
+				E7D9121A1CDAE4D5007DA3C3 /* SimulRecognizer */,
+				E7D912341CDAE4D5007DA3C3 /* SimulRecognizerTests */,
+				E7D9123F1CDAE4D5007DA3C3 /* SimulRecognizerUITests */,
+				E7D912191CDAE4D5007DA3C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7D912191CDAE4D5007DA3C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D912181CDAE4D5007DA3C3 /* SimulRecognizer.app */,
+				E7D912311CDAE4D5007DA3C3 /* SimulRecognizerTests.xctest */,
+				E7D9123C1CDAE4D5007DA3C3 /* SimulRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7D9121A1CDAE4D5007DA3C3 /* SimulRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				E79109511CDB343800BF05EA /* rugby.png */,
+				E79109521CDB343800BF05EA /* rugbyOriginal.png */,
+				E7D9121E1CDAE4D5007DA3C3 /* AppDelegate.h */,
+				E7D9121F1CDAE4D5007DA3C3 /* AppDelegate.m */,
+				E7D912211CDAE4D5007DA3C3 /* ViewController.h */,
+				E7D912221CDAE4D5007DA3C3 /* ViewController.m */,
+				E7D912241CDAE4D5007DA3C3 /* Main.storyboard */,
+				E7D912271CDAE4D5007DA3C3 /* Assets.xcassets */,
+				E7D912291CDAE4D5007DA3C3 /* LaunchScreen.storyboard */,
+				E7D9122C1CDAE4D5007DA3C3 /* Info.plist */,
+				E7D9121B1CDAE4D5007DA3C3 /* Supporting Files */,
+			);
+			path = SimulRecognizer;
+			sourceTree = "<group>";
+		};
+		E7D9121B1CDAE4D5007DA3C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7D9121C1CDAE4D5007DA3C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7D912341CDAE4D5007DA3C3 /* SimulRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7D912351CDAE4D5007DA3C3 /* SimulRecognizerTests.m */,
+				E7D912371CDAE4D5007DA3C3 /* Info.plist */,
+			);
+			path = SimulRecognizerTests;
+			sourceTree = "<group>";
+		};
+		E7D9123F1CDAE4D5007DA3C3 /* SimulRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7D912401CDAE4D5007DA3C3 /* SimulRecognizerUITests.m */,
+				E7D912421CDAE4D5007DA3C3 /* Info.plist */,
+			);
+			path = SimulRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7D912171CDAE4D5007DA3C3 /* SimulRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D912451CDAE4D5007DA3C3 /* Build configuration list for PBXNativeTarget "SimulRecognizer" */;
+			buildPhases = (
+				E7D912141CDAE4D5007DA3C3 /* Sources */,
+				E7D912151CDAE4D5007DA3C3 /* Frameworks */,
+				E7D912161CDAE4D5007DA3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimulRecognizer;
+			productName = SimulRecognizer;
+			productReference = E7D912181CDAE4D5007DA3C3 /* SimulRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7D912301CDAE4D5007DA3C3 /* SimulRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D912481CDAE4D5007DA3C3 /* Build configuration list for PBXNativeTarget "SimulRecognizerTests" */;
+			buildPhases = (
+				E7D9122D1CDAE4D5007DA3C3 /* Sources */,
+				E7D9122E1CDAE4D5007DA3C3 /* Frameworks */,
+				E7D9122F1CDAE4D5007DA3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D912331CDAE4D5007DA3C3 /* PBXTargetDependency */,
+			);
+			name = SimulRecognizerTests;
+			productName = SimulRecognizerTests;
+			productReference = E7D912311CDAE4D5007DA3C3 /* SimulRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7D9123B1CDAE4D5007DA3C3 /* SimulRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D9124B1CDAE4D5007DA3C3 /* Build configuration list for PBXNativeTarget "SimulRecognizerUITests" */;
+			buildPhases = (
+				E7D912381CDAE4D5007DA3C3 /* Sources */,
+				E7D912391CDAE4D5007DA3C3 /* Frameworks */,
+				E7D9123A1CDAE4D5007DA3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D9123E1CDAE4D5007DA3C3 /* PBXTargetDependency */,
+			);
+			name = SimulRecognizerUITests;
+			productName = SimulRecognizerUITests;
+			productReference = E7D9123C1CDAE4D5007DA3C3 /* SimulRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7D912101CDAE4D5007DA3C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ngotruong;
+				TargetAttributes = {
+					E7D912171CDAE4D5007DA3C3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+					};
+					E7D912301CDAE4D5007DA3C3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E7D912171CDAE4D5007DA3C3;
+					};
+					E7D9123B1CDAE4D5007DA3C3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E7D912171CDAE4D5007DA3C3;
+					};
+				};
+			};
+			buildConfigurationList = E7D912131CDAE4D5007DA3C3 /* Build configuration list for PBXProject "SimulRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7D9120F1CDAE4D5007DA3C3;
+			productRefGroup = E7D912191CDAE4D5007DA3C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7D912171CDAE4D5007DA3C3 /* SimulRecognizer */,
+				E7D912301CDAE4D5007DA3C3 /* SimulRecognizerTests */,
+				E7D9123B1CDAE4D5007DA3C3 /* SimulRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7D912161CDAE4D5007DA3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D9122B1CDAE4D5007DA3C3 /* LaunchScreen.storyboard in Resources */,
+				E79109531CDB343800BF05EA /* rugby.png in Resources */,
+				E79109541CDB343800BF05EA /* rugbyOriginal.png in Resources */,
+				E7D912281CDAE4D5007DA3C3 /* Assets.xcassets in Resources */,
+				E7D912261CDAE4D5007DA3C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D9122F1CDAE4D5007DA3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D9123A1CDAE4D5007DA3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7D912141CDAE4D5007DA3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D912231CDAE4D5007DA3C3 /* ViewController.m in Sources */,
+				E7D912201CDAE4D5007DA3C3 /* AppDelegate.m in Sources */,
+				E7D9121D1CDAE4D5007DA3C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D9122D1CDAE4D5007DA3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D912361CDAE4D5007DA3C3 /* SimulRecognizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D912381CDAE4D5007DA3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D912411CDAE4D5007DA3C3 /* SimulRecognizerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7D912331CDAE4D5007DA3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7D912171CDAE4D5007DA3C3 /* SimulRecognizer */;
+			targetProxy = E7D912321CDAE4D5007DA3C3 /* PBXContainerItemProxy */;
+		};
+		E7D9123E1CDAE4D5007DA3C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7D912171CDAE4D5007DA3C3 /* SimulRecognizer */;
+			targetProxy = E7D9123D1CDAE4D5007DA3C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7D912241CDAE4D5007DA3C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D912251CDAE4D5007DA3C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7D912291CDAE4D5007DA3C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D9122A1CDAE4D5007DA3C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7D912431CDAE4D5007DA3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7D912441CDAE4D5007DA3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7D912461CDAE4D5007DA3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimulRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SimulRecognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7D912471CDAE4D5007DA3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimulRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SimulRecognizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7D912491CDAE4D5007DA3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimulRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SimulRecognizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimulRecognizer.app/SimulRecognizer";
+			};
+			name = Debug;
+		};
+		E7D9124A1CDAE4D5007DA3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimulRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SimulRecognizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimulRecognizer.app/SimulRecognizer";
+			};
+			name = Release;
+		};
+		E7D9124C1CDAE4D5007DA3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimulRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SimulRecognizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimulRecognizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E7D9124D1CDAE4D5007DA3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimulRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.SimulRecognizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimulRecognizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7D912131CDAE4D5007DA3C3 /* Build configuration list for PBXProject "SimulRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D912431CDAE4D5007DA3C3 /* Debug */,
+				E7D912441CDAE4D5007DA3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D912451CDAE4D5007DA3C3 /* Build configuration list for PBXNativeTarget "SimulRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D912461CDAE4D5007DA3C3 /* Debug */,
+				E7D912471CDAE4D5007DA3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D912481CDAE4D5007DA3C3 /* Build configuration list for PBXNativeTarget "SimulRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D912491CDAE4D5007DA3C3 /* Debug */,
+				E7D9124A1CDAE4D5007DA3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D9124B1CDAE4D5007DA3C3 /* Build configuration list for PBXNativeTarget "SimulRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D9124C1CDAE4D5007DA3C3 /* Debug */,
+				E7D9124D1CDAE4D5007DA3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7D912101CDAE4D5007DA3C3 /* Project object */;
+}
